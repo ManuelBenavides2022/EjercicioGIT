@@ -1,6 +1,6 @@
 let producto;
 
-function multiplicar(a, b) {
-    producto = a*b;
-    return producto;
+function multiplica(a, b) {
+   return a*b;
 }
+document.getElementById('resul').innerHTML = multiplica(7,8); 
